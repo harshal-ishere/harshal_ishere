@@ -1,0 +1,141 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav {
+    padding: 0.9rem 2rem 0.9rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    top: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+.fixed-top{
+    background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    color: white;
+}
+.nav-bar-imgs {
+    width: 25px;
+}
+
+.nav-items {
+    display: flex;
+    background-color: #D4F1F4;
+    color: black;
+    border-radius: 2rem;
+    padding: 0.4rem;
+}
+
+.nav-heading {
+    margin-left: 10px;
+}
+
+.nav-items p,
+.nav-bar-imgs {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* home page css */
+#home{
+    padding-top: 5rem;
+}
+.home-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.home-photo-img{
+    width: 360px;
+}
+.home-intro{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.home-intro-name{
+    font-size: 45px;
+    margin-bottom: 5%;
+}
+.home-intro-brief{
+    font-size: 20px;
+}
+.home-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+.green-arrow{
+    align-self: center;
+}
+.home-sec-head{
+    align-self: flex-start;
+    font-size: 20px;
+    margin-right: .9rem;
+}
+.tech-list img{
+    width: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.nic-name{
+    align-self: flex-end;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+.nic-name-arrow{
+align-self: flex-end;
+}
+
+/* -----------projects--------- */
+.header-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#projects hr{
+    width: 60%;
+}
+.project-header{
+    text-align: center;
+    font-size: 40px;
+}
+.project-card{
+    background-color: #D4F1F4;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: black;
+    margin: 40px 17% 40px 17%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 2rem;
+}
+.project-card-img img{
+    width: 400px;
+}
+.desHead{
+    font-size: 2rem;
+    margin-bottom: 0.6rem;
+}
+.desTech{
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+}
+/* ---------------fotter----------- */
+#fotter{
+    background-color: #000;
+    color: white;
+    padding: 5rem;
+}
