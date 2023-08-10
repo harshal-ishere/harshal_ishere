@@ -11,7 +11,14 @@ nav {
     font-size: 1.25rem;
     top: 0;
 }
-
+@media(max-width:520px){
+    .nav-heading p{
+        font-size: 1rem;
+    }
+    .nav-items a{
+        font-size: 1rem;
+    }
+}
 @media(max-width:820px) {
     .nav-bar-img-div {
         display: none;
@@ -34,6 +41,7 @@ a {
 
 .nav-heading p {
     padding-top: 0.3rem;
+    padding-right: 0.3rem;
     font-family: 'Author', sans-serif;
 }
 

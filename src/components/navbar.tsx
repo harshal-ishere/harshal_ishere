@@ -6,7 +6,7 @@ let Navbar: FC = () => {
             <div className="nav-heading">
                 <p>@harshal.ishere</p>
             </div>
-            <div className="nav-items ">
+            <div className="nav-items">
                 <a href="#home">Home</a>
                 <a href="#projects">Projects</a>
                 <a href="#about">About</a>
