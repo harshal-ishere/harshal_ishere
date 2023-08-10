@@ -10,12 +10,15 @@ let Home: FC = () => {
                         <p className="nic-name-head">i go by sync</p>
                         <img src={require('../img/right-drawn-arrow.png')} alt="arrow" className="nic-name-arrow" />
                     </div>
-                    <p className="home-intro-name">My name is Harshal</p>
+                    <p className="home-intro-name"><span className="mynameis">My name is </span><span style={{color:"#70A9CB"}} className="myname">Harshal</span></p>
                     <p className="home-intro-brief">I am an 18 years old aspiring web-dev<br /> Who wishes to make appealing websites.</p>
                 </div>
                 <div className="home-photo">
-                    <img src={require('../img/boy.png')} alt="boy" className="home-photo-img" />
+                    <img src={require('../img/me2.png')} alt="boy" className="home-photo-img" />
                 </div>
+            </div>
+            <div className="header-line">
+            <hr />
             </div>
             <div className="home-sec">
                 <p className="home-sec-head">Technologies</p>
@@ -27,6 +30,9 @@ let Home: FC = () => {
                     <img src={require('../img/js.png')} alt="" />
                     <img src={require('../img/bootstrap.png')} alt="" />
                 </div>
+            </div>
+            <div className="header-line">
+            <hr />
             </div>
         </section>
     );

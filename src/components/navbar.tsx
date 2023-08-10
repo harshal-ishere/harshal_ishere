@@ -7,9 +7,9 @@ let Navbar: FC = () => {
                 <p>@harshal.ishere</p>
             </div>
             <div className="nav-items ">
-                <p>Home</p>
-                <p>Projects</p>
-                <p>About</p>
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
             </div>
             <div className="nav-bar-img-div">
                 <a href="https://twitter.com/harshal_ishere" > <img src={require('../img/twitter.png')} alt="twitter" className="nav-bar-imgs" /></a>
