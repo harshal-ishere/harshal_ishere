@@ -41,7 +41,7 @@ a {
 
 .nav-heading p {
     padding-top: 0.3rem;
-    padding-right: 0.3rem;
+    padding-right: 0.5rem;
     font-family: 'Author', sans-serif;
 }
 
@@ -71,12 +71,14 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     margin-bottom: 4rem;
 }
 
 .home-photo-img {
     width: 270px;
-    padding-left: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .home-intro {
@@ -85,7 +87,6 @@ a {
     flex-direction: column;
     margin-left: 14px!important;
 }
-
 p.home-intro-name {
     font-size: 3rem;
     margin-bottom: 5%;
@@ -169,8 +170,7 @@ p.home-intro-brief {
     align-items: center;
 }
 .nic-name {
-    align-self: flex-end;
-    margin-bottom: 25px;
+    align-items: flex-end;
     display: flex;
     flex-direction: column;
 
@@ -194,7 +194,15 @@ p.home-intro-brief {
 .header-line hr {
     width: 70%;
 }
-
+@media(max-width:520px){
+    .header-line hr{
+        width: 90%;
+    }
+    .project-card {
+        margin-left: 10%!important;
+        margin-right: 10%!important;
+    }
+}
 .project-header {
     text-align: center;
     font-size: 40px;
@@ -217,13 +225,18 @@ p.home-intro-brief {
 .project-card-img img {
     width: 400px;
     border-radius: 1rem;
+    overflow: hidden;
 }
+/* @media(max-width:520px){
+    .project-card-img img{
+        width: 22px!important;
+    }
 
+} */
 
-
-@media(max-width:1198px) {
+@media(max-width:1198px){
     .project-card-img img {
-        width: 250px;
+        width: 290px!important;
     }
     .desHead{
         font-size: 1.5rem!important;
@@ -253,17 +266,18 @@ p.home-intro-brief {
         margin-right: 20px!important;
         margin-top:8px!important;
     }
-    
 }
 
 /* ---------------fotter----------- */
 #fotter {
     background-color: #000;
     color: white;
-    padding: 5rem;
+    padding-left: 8%;
+    padding-right: 8%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    gap: 8%;
 }
 .socials a{
     color: gray;
@@ -278,11 +292,21 @@ p.home-intro-brief {
     font-size: 40px;
     text-align: center;
     font-family: 'Author', sans-serif;
+    margin-bottom: 2.5rem;
 }
 .about-details{
     padding-left: 18%;
     padding-right: 18%;
     margin-bottom: 3rem;
+}
+@media(max-width:520px){
+    .about-details{
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    #fotter{
+        padding: 8%;
+    }
 }
 .about-details p{
     padding-bottom: 1rem;
