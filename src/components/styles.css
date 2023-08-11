@@ -10,15 +10,24 @@ nav {
     justify-content: space-around;
     font-size: 1.25rem;
     top: 0;
+    z-index: 2;
 }
-@media(max-width:520px){
-    .nav-heading p{
-        font-size: 1rem;
+
+
+
+@media(min-width:720px){
+    .hamburger{
+        display: none;
     }
-    .nav-items a{
-        font-size: 1rem;
+    
+}
+@media(max-width:720px){
+    nav{
+        justify-content: space-between;
     }
 }
+
+
 @media(max-width:820px) {
     .nav-bar-img-div {
         display: none;
@@ -47,12 +56,21 @@ a {
 
 .nav-items {
     display: flex;
-    background-color: #D4F1F4;
+    background-color: #70A9CB;
     color: black;
     border-radius: 2rem;
     padding: 0.3rem;
 }
-
+.nav-items-toggle{
+    display: flex;
+    flex-direction:column ;
+    margin-top: 0.6rem;
+}
+.nav-items-toggle a{
+    color:white;
+    font-family: 'Switzer', sans-serif;
+    font-size: 1.15rem;
+}
 .nav-items a,
 .nav-bar-imgs {
     margin-left: 10px;
@@ -61,6 +79,14 @@ a {
 .nav-items a{
     color: black;
     font-family: 'Chillax', sans-serif;
+}
+@media(max-width:720px){
+    .nav-items{
+        display: none;
+    }
+}
+.invincible{
+    display: none;
 }
 /* home page css */
 #home {
@@ -250,7 +276,7 @@ p.home-intro-brief {
 }
 .desHead {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: .1rem;
     font-family: 'Satoshi', sans-serif;
 }
 .desTech {
@@ -313,4 +339,7 @@ p.home-intro-brief {
 .about-details p{
     padding-bottom: 1rem;
     font-family: 'Nippo', serif;
+}
+.nicuee{
+    font-family: 'Clash Display', sans-serif;
 }
