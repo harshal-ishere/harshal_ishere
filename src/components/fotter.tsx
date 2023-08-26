@@ -11,9 +11,9 @@ let Fotter: FC = () => {
             <div className="socials">
                 <p className="nicuee">Socials</p>
                 <br />
-                <a href="https://twitter.com/harshal_ishere">twitter</a>
-                <a href="https://github.com/harshal-ishere">github</a>
-                <a href="https://www.linkedin.com/in/harshal-k-5b3354287/">linkedin</a>
+                <a href="https://twitter.com/harshal_ishere">Twitter</a>
+                <a href="https://github.com/harshal-ishere">Github</a>
+                <a href="https://www.linkedin.com/in/harshal-ishere/">Linkedin</a>
             </div>
         </div>
     )

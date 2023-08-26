@@ -14,7 +14,6 @@ nav {
 }
 
 
-
 @media(min-width:720px){
     .hamburger{
         display: none;
@@ -242,14 +241,15 @@ p.home-intro-brief {
     justify-content: space-evenly;
     color: black;
     margin: 40px 17% 40px 17%;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    /* padding-top: 1.5rem;
+    padding-bottom: 1.5rem; */
+    padding: 1.5rem 0 1.5rem 0;
     border-radius: 1.5rem;
     flex-wrap: wrap;
 }
 
 .project-card-img img {
-    width: 400px;
+    width: 450px;
     border-radius: 1rem;
     overflow: hidden;
 }
@@ -282,6 +282,16 @@ p.home-intro-brief {
 .desTech {
     font-size: 1.3rem;
     margin-bottom: 0.3rem;
+}
+.desMain-2 a{
+    color: #000;
+    font-family: 'Nippo', serif;
+}
+.desMain-2 a:hover{
+    color: green;
+}
+.desMain-2{
+    margin-top: 1.5rem;
 }
 @media(max-width:852px){
     .project-card-img img {

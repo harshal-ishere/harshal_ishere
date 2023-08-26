@@ -7,7 +7,7 @@ let Projects: FC = () => {
         <section id="projects">
             <p className="project-header">Projects</p>
             <div className="project-group">
-                <ProjectCard src="projectGPT.png" desHead="Chat-GPT Clone" desTech="REACT || JSX || CSS || JS || BOOTSTRAP" desMain="It is a complete replica of chat gpt as close as possible" />
+                <ProjectCard src="projectGPTnew.jpg" desHead="Chat-GPT Clone" desTech="REACT || JSX || CSS || JS || BOOTSTRAP" desMain="It is a complete replica of chat gpt as close as possible" visitLink="https://chat-gpt-harshal-ishere.vercel.app/" />
             </div>
         </section>
     )
